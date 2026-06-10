@@ -1,0 +1,18 @@
+[project]
+name = "color-correct-gpu"
+description = "ComfyUI custom node that mirrors Art Venture color correction controls with GPU-accelerated PyTorch processing."
+authors = [
+    { name = "boobkake22", email = "boobkake22@gmail.com" }
+]
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.urls]
+Repository = "https://github.com/boobkake22/ComfyUI-ColorCorrectGPU"
+"Bug Tracker" = "https://github.com/boobkake22/ComfyUI-ColorCorrectGPU/issues"
+
+[tool.comfy]
+PublisherId = "boobkake22"
+DisplayName = "Color Correct GPU"
+Icon = ""
